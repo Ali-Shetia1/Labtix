@@ -17,7 +17,7 @@ const Navbar = () => {
         src={assets.logo}
         alt="logo"
       /> */}
-      <h1 role="button" onClick={() => router.push("/")} className="text-4xl font-extrabold first-letter:text-[#FF532E] first-letter:text-[45px] tracking-wider">Labtix</h1>
+      <h1 role="button" onClick={() => router.push("/")} className="text-4xl font-extrabold first-letter:text-[#FF532E] first-letter:text-[45px] tracking-wider">Laptix</h1>
       <div className="flex items-center gap-4 lg:gap-8 max-md:hidden">
         <Link href="/" className="hover:text-gray-900 transition">
           Home
